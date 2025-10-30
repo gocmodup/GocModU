@@ -1,6 +1,6 @@
 {
-  "Msg": "Cập nhật cho phép xuất 2k/4k (chưa test =)))",
+  "Msg": "Bản nập nhật mới không xuất được 2k/4k.\nNếu không quan trọng thì không cần cập nhật.",
   "downloadLink": "https://gocmod.com/capcut-pro-apk/",
-  "versionCode": 15400003,
-  "status": "15.4.0 Pro"
+  "versionCode": 15500003,
+  "status": "15.5.0 Pro"
 }
