@@ -1,6 +1,6 @@
 {
   "title": "Tham gia cùng chúng tôi ❤️",
-  "tag": "GocMod TEAM",
+  "tag": "GocMod TEAM - GocMod.com",
   "subtitle": "Kho ứng dụng Mod cho Android 🔥",
   "rememberText": "Nhớ tùy chọn của tôi.",
   "primaryButton": "THAM GIA NGAY",
