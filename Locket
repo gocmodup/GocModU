@@ -1,6 +1,6 @@
 {
-  "Msg": "Có gì mới ư?\nCải thiện độ ổn định trên bản Mod, giảm crash.",
+  "Msg": "Có gì mới ư?\nThêm RollCall",
   "downloadLink": "https://gocmod.com/locket-gold/",
-  "versionCode": 476,
-  "status": "v1.210.1"
+  "versionCode": 479,
+  "status": "v1.210.2"
 }
