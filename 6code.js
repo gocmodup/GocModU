@@ -51,7 +51,7 @@
     close.style.position = 'absolute';
     close.style.top = '5px';
     close.style.right = '10px';
-    close.style.fontSize = '24px';
+    close.style.fontSize = '35px';
     close.style.color = '#888';
     close.style.cursor = 'pointer';
     close.style.zIndex = '10000';
