@@ -1,6 +1,6 @@
 {
-  "Msg": "Official GocMod APP v1.0",
-  "downloadLink": "https://t.me/gocmod",
-  "versionCode": 1,
-  "status": "Official App"
+  "Msg": "Sửa: Lỗi ngôn ngữ không chuyển sang tiếng Anh ở một số thiết bị.\nSửa: Dialog kiểm tra cập nhật không hiển thị lại sau khi bấm cập nhật ứng dụng.\nThêm: Giao diện tối cho app\nThêm: Báo cáo link die / yêu cầu cập nhật qua nút 🚨\nThêm: Bookmark nhanh (yêu cầu đăng nhập tài khoản)",
+  "downloadLink": "https://gocmod.com/gocmod-app/",
+  "versionCode": 2,
+  "status": "v1.1"
 }
