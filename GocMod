@@ -1,6 +1,6 @@
 {
-  "Msg": "Sửa lỗi không thể tải file khi thoát app/tắt màn hình.",
+  "Msg": "\u2022 Sửa crash ở 1 số trường hợp đặc biệt.\n\u2022 Sửa tốc độ tải chập chờn \n\u2022 Tăng tốc độ tải mạnh hơn, xử lý tải nhanh hơn\n\u2022 Sửa icon cập nhật sang bên trái (tránh vướng nút bình luận)\n\u2022 Thêm Tự động xoá APK sau khi cài đặt\n\u2022 Thêm tùy chọn Ngôn ngữ (Hiện có Anh & Việt)\n\u2022 Thêm một số tính năng ẩn",
   "downloadLink": "https://gocmod.com/gocmod-app/",
-  "versionCode": 3,
-  "status": "v1.2"
+  "versionCode": 4,
+  "status": "v1.3"
 }
