@@ -1,6 +1,6 @@
 {
-  "Msg": "\u2022 Sửa crash ở 1 số trường hợp đặc biệt.\n\u2022 Sửa tốc độ tải chập chờn \n\u2022 Tăng tốc độ tải mạnh hơn, xử lý tải nhanh hơn\n\u2022 Sửa icon cập nhật sang bên trái (tránh vướng nút bình luận)\n\u2022 Thêm Tự động xoá APK sau khi cài đặt\n\u2022 Thêm tùy chọn Ngôn ngữ (Hiện có Anh & Việt)\n\u2022 Thêm một số tính năng ẩn",
+  "Msg": "\u2022 Sửa lỗi không thể tải nhiều file cùng lúc.\n\u2022 Thêm tính năng \"Tiếp tục\" tải nếu lỡ tắt app\n\u2022 Thêm \"Dừng\" và \"Tiếp tục\" tải\n\u2022 Sửa và tối ưu lỗi nhỏ.",
   "downloadLink": "https://gocmod.com/gocmod-app/",
-  "versionCode": 4,
-  "status": "v1.3"
+  "versionCode": 5,
+  "status": "v1.4"
 }
