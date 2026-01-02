@@ -1,6 +1,6 @@
 {
-  "Msg": "\u2022 Sửa lỗi không thể tải nhiều file cùng lúc.\n\u2022 Thêm tính năng \"Tiếp tục\" tải nếu lỡ tắt app\n\u2022 Thêm \"Dừng\" và \"Tiếp tục\" tải\n\u2022 Sửa và tối ưu lỗi nhỏ.",
+  "Msg": "\u2022 Thêm : \nHệ thống Rank - Cấp bậc\nHệ thống Story App - Xu hướng tải về (thay đổi luân phiên)\nNhật ký hoạt động (Để biết bạn cài gì, backup gì vv...)\n\u2022 Sửa :\nMàu không đồng bộ\nTăng tốc độ load site\nTối ưu app, tăng chất lượng lướt.\nĐổi API cũ sang API GocMod, để tránh lag",
   "downloadLink": "https://gocmod.com/gocmod-app/",
-  "versionCode": 5,
-  "status": "v1.4"
+  "versionCode": 6,
+  "status": "v1.5"
 }
