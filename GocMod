@@ -1,6 +1,6 @@
 {
-  "Msg": "\u2022 Thêm : \nHệ thống Rank - Cấp bậc\nHệ thống Story App - Xu hướng tải về (thay đổi luân phiên)\nNhật ký hoạt động (Để biết bạn cài gì, backup gì vv...)\n\u2022 Sửa :\nMàu không đồng bộ\nTăng tốc độ load site\nTối ưu app, tăng chất lượng lướt.\nĐổi API cũ sang API GocMod, để tránh lag",
+  "Msg": "\u2022 Thêm : \n- Hệ thống theo dõi cập nhật ứng dụng \n- Phương thức cài đặt (Hỗ trợ root & Shizuku)\n\u2022 Sửa :\nSửa lỗi nhỏ ở xu hướng",
   "downloadLink": "https://gocmod.com/gocmod-app/",
-  "versionCode": 6,
-  "status": "v1.5"
+  "versionCode": 7,
+  "status": "v1.6"
 }
