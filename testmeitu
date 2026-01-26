@@ -1,0 +1,13 @@
+{
+  "status": 0,
+  "data": {
+    "is_vip": true,
+    "vip_type": 1,
+    "vip_expire_time": 4070908800,
+    "is_limit_free": true,
+    "sub_status": 1,
+    "privilege": [
+      {"id": "all", "is_valid": true}
+    ]
+  }
+}
