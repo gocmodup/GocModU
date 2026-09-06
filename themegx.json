@@ -1,1 +1,202 @@
+{
+  "name": "GX APK",
+  "version": "1.21.0",
+  "date": "2026-09-07",
+  "download": "https://example.com/gx-apk-1.21.0.zip",
+  "notice": "",
+  "changelog": [
+    {
+      "version": "1.21.0",
+      "date": "2026-09-07",
+      "notes": {
+        "en": [
+          "The change log lives in a JSON file instead of the theme dictionary.",
+          "The theme says when a newer build is out, with the notes and a download button.",
+          "An update can be skipped.",
+          "The colour button in the header is now a settings button: account, colour, language.",
+          "A reader can switch between English and Vietnamese without the admin changing the site."
+        ],
+        "vi": [
+          "Lịch sử cập nhật nằm trong file JSON, không nằm trong từ điển của theme.",
+          "Theme báo khi có bản mới, kèm nội dung thay đổi và nút tải.",
+          "Bỏ qua được bản cập nhật.",
+          "Nút màu trên header thành nút cài đặt: tài khoản, màu, ngôn ngữ.",
+          "Khách tự đổi English hay Tiếng Việt, admin không cần đổi cả web."
+        ]
+      }
+    },
+    {
+      "version": "1.20.1",
+      "date": "2026-09-07",
+      "notes": {
+        "en": [
+          "A change log page in the settings."
+        ],
+        "vi": [
+          "Trang lịch sử cập nhật trong cài đặt."
+        ]
+      }
+    },
+    {
+      "version": "1.19.0",
+      "date": "2026-09-07",
+      "notes": {
+        "en": [
+          "The build a new download link replaces drops into the version history by itself.",
+          "Shorter descriptions across the admin pages."
+        ],
+        "vi": [
+          "Đổi link tải thì bản cũ tự xuống lịch sử phiên bản.",
+          "Chữ mô tả trong trang quản trị ngắn lại."
+        ]
+      }
+    },
+    {
+      "version": "1.18.0",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "Upload part size and how many parts go at once are yours to set, and parts go straight to the bucket.",
+          "A copied download link only works from this site.",
+          "Duplicate categories can be merged."
+        ],
+        "vi": [
+          "Tự đặt dung lượng mỗi phần và số phần chạy song song, phần được đẩy thẳng lên bucket.",
+          "Link tải copy đi chỗ khác không dùng được.",
+          "Gộp được danh mục trùng tên."
+        ]
+      }
+    },
+    {
+      "version": "1.17.0",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "Upload an APK straight from the post editor.",
+          "The download address is minted per click instead of sitting in the post.",
+          "Import accepts a bare package name.",
+          "Cron status on the settings page."
+        ],
+        "vi": [
+          "Tải APK lên ngay trong trình soạn bài.",
+          "Địa chỉ tải được sinh theo từng cú bấm, không nằm trong bài.",
+          "Nhập dữ liệu chỉ bằng tên package cũng được.",
+          "Xem tình trạng cron trong cài đặt."
+        ]
+      }
+    },
+    {
+      "version": "1.16.0",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "One title on the page, another for search engines."
+        ],
+        "vi": [
+          "Một tiêu đề hiện trên trang, một tiêu đề cho máy tìm kiếm."
+        ]
+      }
+    },
+    {
+      "version": "1.15.0",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "Logo upload in the settings.",
+          "Visitors can pick their own colours.",
+          "Real download counts once an app passes the threshold."
+        ],
+        "vi": [
+          "Đổi logo trong cài đặt.",
+          "Khách tự chọn màu cho web.",
+          "App đủ ngưỡng thì hiện lượt tải web tự đếm."
+        ]
+      }
+    },
+    {
+      "version": "1.14.1",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "Menu buttons restyled."
+        ],
+        "vi": [
+          "Chỉnh lại kiểu nút trên menu."
+        ]
+      }
+    },
+    {
+      "version": "1.14.0",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "A Request a MOD page with a review queue and package matching.",
+          "The front page menu is yours to edit."
+        ],
+        "vi": [
+          "Trang Request Mod kèm danh sách duyệt và quét package.",
+          "Tự sửa được menu ngoài trang chủ."
+        ]
+      }
+    },
+    {
+      "version": "1.13.2",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "A new category shows up on the front page on its own."
+        ],
+        "vi": [
+          "Chuyên mục mới tự hiện ở trang chủ."
+        ]
+      }
+    },
+    {
+      "version": "1.13.1",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "Size and the YouTube video come in from Google Play.",
+          "A progress bar replaced the please wait line."
+        ],
+        "vi": [
+          "Lấy được dung lượng và video YouTube từ Google Play.",
+          "Thanh tiến trình thay cho dòng chờ 10-20 giây."
+        ]
+      }
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-09-06",
+      "notes": {
+        "en": [
+          "Visitors can send in APK files, and rejecting one deletes it from storage.",
+          "Approving opens the post editor instead of publishing straight away.",
+          "Uploaded by is shown on the app page and in the download box.",
+          "Old builds nobody downloads are deleted on their own.",
+          "Settings split into one page per feature, and admins can add their own languages."
+        ],
+        "vi": [
+          "Khách gửi được APK lên, từ chối thì xoá luôn tệp trên storage.",
+          "Bấm duyệt thì mở trình soạn bài chứ không đăng ngay.",
+          "Hiện Tải lên bởi trên trang app và trong khung tải.",
+          "Bản cũ không ai tải thì tự bị xoá.",
+          "Cài đặt tách mỗi tính năng một trang, và admin tự thêm ngôn ngữ được."
+        ]
+      }
+    },
+    {
+      "version": "1.12.0",
+      "date": "",
+      "notes": {
+        "en": [
+          "The build this series started from."
+        ],
+        "vi": [
+          "Bản gốc trước loạt cập nhật này."
+        ]
+      }
+    }
+  ]
+}
 
