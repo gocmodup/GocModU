@@ -1,9 +1,19 @@
 {
   "web": "https://gxapk.aevnhit.lol",
-  "logo": "https://.../gxapk-logo.png",
+  "logo": "https://i45.servimg.com/u/f45/19/58/16/37/chatgp12.png",
   "verified": true,
   "accent": "#01875f",
   "tick": "#3d6bff",
-  "vi": { "title": "Modded by GxAPK", "message": "…", "close": "Đóng",  "visit": "Ghé thăm web" },
-  "en": { "title": "Modded by GxAPK", "message": "…", "close": "Close", "visit": "Visit Website" }
+  "vi": {
+    "title": "Modded by GxAPK",
+    "message": "Ứng dụng này được chỉnh sửa và chia sẻ miễn phí bởi GxAPK. Vui lòng không mua bán lại dưới mọi hình thức. Ghé thăm website của chúng tôi để tải thêm nhiều ứng dụng và game đã mod mới nhất!",
+    "close": "Đóng",
+    "visit": "Ghé thăm web"
+  },
+  "en": {
+    "title": "Modded by GxAPK",
+    "message": "This app was modded and shared for free by GxAPK. Please do not resell it in any form. Visit our website for the latest modded apps and games!",
+    "close": "Close",
+    "visit": "Visit Website"
+  }
 }
