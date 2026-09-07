@@ -1,10 +1,42 @@
 {
   "name": "GX APK",
-  "version": "1.21.0",
-  "date": "2026-09-07",
+  "version": "1.23.0",
+  "date": "2026-09-08",
   "download": "https://example.com/gx-apk-1.21.0.zip",
   "notice": "",
   "changelog": [
+    {
+  "version": "1.23.0",
+  "date": "2026-09-07",
+  "notes": {
+    "en": [
+      "The Submit APK page sends several parts of a file at once, which makes a large upload far faster than sending one part and waiting for it.",
+      "How many parts travel together is the existing \"Parts at once\" setting, so the editor and the Submit APK page are tuned in one place.",
+      "A part that goes missing on a long mobile upload is retried on its own instead of failing the whole file.",
+      "New setting: a tag added to the end of every downloaded file name, in front of the extension, for example game-v2_yoursite.com.apk.",
+      "The random characters that keep two builds of one version apart are no longer shown in the downloaded file name.",
+      "In the editor several APK files can be picked at once, and each extra file gets its own download row, labelled from the file name.",
+      "The MOD field takes several lines, and the line breaks now survive onto the app page.",
+      "The import language can follow the site language, so an imported app is no longer in English by mistake.",
+      "On a phone the settings popover opens below the header instead of off the top of the screen.",
+      "Uploads from visitors are capped per person per day and for the whole site, so storage cannot be run up.",
+      "Theme CSS and JS are versioned from the files themselves, so an update is never served from the browser cache."
+    ],
+    "vi": [
+      "Trang Gửi APK đẩy nhiều phần của một tệp lên cùng lúc, nên tải tệp lớn nhanh hơn hẳn so với đi từng phần rồi chờ.",
+      "Số phần đi cùng nhau lấy theo cài đặt \"Số phần chạy song song\" có sẵn, nên trang soạn bài và trang Gửi APK chỉ cần đặt một chỗ.",
+      "Một phần bị rớt giữa đường khi mạng yếu sẽ được gửi lại riêng, không làm hỏng cả tệp.",
+      "Cài đặt mới: tự thêm một đoạn vào cuối tên tệp khi tải về, đặt trước phần đuôi, ví dụ game-v2_tenweb.com.apk.",
+      "Tên tệp tải về không còn kèm mấy ký tự ngẫu nhiên dùng để phân biệt các bản build.",
+      "Trong trang soạn bài có thể chọn nhiều tệp APK một lượt, mỗi tệp thêm tự có một dòng link tải riêng, tên lấy theo tên tệp.",
+      "Ô Thông tin MOD nhập được nhiều dòng, và dấu xuống dòng hiển thị đúng ở trang ứng dụng.",
+      "Ngôn ngữ import theo được ngôn ngữ của web, bài import không còn ra tiếng Anh ngoài ý muốn.",
+      "Trên điện thoại, nút cài đặt mở xuống dưới header, không còn chạy lên mất khỏi màn hình.",
+      "Khách gửi APK bị giới hạn theo từng người mỗi ngày và theo cả web, nên không thể làm phình kho lưu trữ.",
+      "CSS và JS của theme đánh version theo chính file, nên bản mới không bị trình duyệt dùng lại bản cũ."
+    ]
+  }
+    },
     {
       "version": "1.21.0",
       "date": "2026-09-07",
