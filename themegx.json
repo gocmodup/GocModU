@@ -1,10 +1,36 @@
 {
   "name": "GX APK",
-  "version": "1.25.0",
+  "version": "1.26.0",
   "date": "2026-09-08",
   "download": "https://example.com/gx-apk-1.21.0.zip",
   "notice": "",
   "changelog": [
+    {
+  "version": "1.26.0",
+  "date": "2026-09-07",
+  "notes": {
+    "en": [
+      "The ad creative itself is rounded now: the network's iframe and <ins> are clipped to the inner radius, so a square banner no longer sits inside a rounded card.",
+      "Ad cards carry a soft shadow and a wider radius, matching every other surface in the theme, and the small ad chip is quieter, an outline instead of a filled block.",
+      "The sticky bar along the bottom has rounded top corners and a shadow that stays visible in dark mode, instead of being a hard-edged slab.",
+      "The sticky bar shows its ad label again; it was hidden outright, even though that is the one ad which covers content.",
+      "The dismiss button on the sticky bar has a 46px tap area while still looking the same size.",
+      "The sponsored label on an affiliate card no longer lands on top of the title below 560px.",
+      "The waiting shimmer and the sticky bar's slide-in now respect the system's reduced-motion setting, like the rest of the theme.",
+      "Ad height is never cropped: only the corners are clipped, so no creative is cut off and no ad-network policy is at risk."
+    ],
+    "vi": [
+      "Bản thân khung quảng cáo giờ được bo tròn: iframe và thẻ <ins> của mạng quảng cáo bị cắt theo đúng góc bo, nên không còn banner vuông nằm trong khung bo tròn.",
+      "Thẻ quảng cáo có bóng mềm và góc bo rộng hơn, khớp với mọi khối khác trong theme, còn nhãn quảng cáo nhỏ thì nhẹ đi, chỉ còn viền mảnh thay vì nền đầy.",
+      "Thanh quảng cáo dính đáy được bo tròn hai góc trên và có bóng đổ vẫn nhìn thấy ở chế độ tối, thay vì là một tấm vuông góc cứng.",
+      "Thanh dính đáy hiện lại nhãn quảng cáo; trước đây nhãn bị ẩn hẳn, dù đây là quảng cáo duy nhất che nội dung.",
+      "Nút tắt thanh quảng cáo có vùng bấm 46px trong khi vẫn nhìn nhỏ như cũ.",
+      "Nhãn được tài trợ trên thẻ affiliate không còn đè lên tiêu đề ở màn hình dưới 560px.",
+      "Hiệu ứng nhấp nháy lúc chờ quảng cáo và hiệu ứng trượt của thanh dính đáy giờ tôn trọng thiết lập giảm chuyển động của hệ thống, giống phần còn lại của theme.",
+      "Chiều cao quảng cáo không bị cắt: chỉ bo góc, nên không có creative nào bị cắt mất phần nào, và không rủi ro chính sách của mạng quảng cáo."
+    ]
+  }
+    },
     {
   "version": "1.25.0",
   "date": "2026-09-07",
