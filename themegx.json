@@ -1,10 +1,46 @@
 {
   "name": "GX APK",
-  "version": "1.27.0",
+  "version": "1.28.0",
   "date": "2026-09-08",
   "download": "https://example.com/gx-apk-1.21.0.zip",
   "notice": "",
   "changelog": [
+    {
+  "version": "1.28.0",
+  "date": "2026-09-08",
+  "notes": {
+    "en": [
+      "Fixed the logo picker in Settings > Appearance, which could not pick an image at all: the Choose image button did nothing, neither uploading a new file nor selecting one from the media library.",
+      "The cause was load order, not the media library. The picker script was printed on the admin_footer hook, but WordPress registers its media library scripts as footer scripts and prints them later, so wp.media did not exist yet when our code ran.",
+      "The script opened with a guard that quietly stopped when wp.media was missing, so it returned on every single page load, the click handlers were never attached, and the button stayed dead without even a console error.",
+      "The picker is now a properly registered script that declares jquery and media-editor as dependencies, so WordPress prints the whole media bundle first and our code after it, every time.",
+      "wp.media is also looked up at the moment the button is clicked rather than when the page loads, so a slow or deferred admin screen can no longer leave the button inert.",
+      "If the media library genuinely cannot load, the button now says so in a translated message instead of failing silently.",
+      "Reopening the picker highlights the image already saved in that field, so replacing a logo starts from the current one instead of an empty library.",
+      "Removing a logo and picking a new one now fire a change event on the hidden field, so anything else watching the form sees the edit.",
+      "The picker no longer needs jQuery to bind its buttons, so a plugin breaking jQuery on the settings screen cannot take the logo picker down with it.",
+      "The picker stylesheet is enqueued through the normal style queue instead of an inline style tag in the footer.",
+      "gx_look_picker_js() is kept as a shim so a child theme or snippet that called it still works.",
+      "New gx_look_picker_tabs filter, for a child theme that wants the picker on a settings tab of its own.",
+      "Fixed three interface strings whose Vietnamese text had corrupted characters: the site name hint under the logo, the user submissions description, and the Google Play import tab description."
+    ],
+    "vi": [
+      "Sửa lỗi chọn logo trong Cài đặt > Giao diện: trước đây không thể chọn ảnh bằng bất kỳ cách nào, bấm Chọn ảnh không ra gì, không tải lên được mà cũng không chọn từ thư viện được.",
+      "Nguyên nhân là thứ tự tải script, không phải lỗi thư viện ảnh. Đoạn script của bộ chọn ảnh được in ra ở hook admin_footer, nhưng WordPress đăng ký script thư viện ảnh ở cuối trang và in ra sau đó, nên lúc code của theme chạy thì wp.media chưa tồn tại.",
+      "Đoạn script mở đầu bằng một câu kiểm tra, thiếu wp.media là lặng lẽ dừng lại, nên lần nào mở trang cũng dừng, không bao giờ gắn được sự kiện click, và cái nút nằm im mà không báo lỗi trong console.",
+      "Bây giờ bộ chọn ảnh là một script được đăng ký đúng cách, khai báo phụ thuộc vào jquery và media-editor, nên WordPress luôn in toàn bộ bộ thư viện ảnh trước rồi mới in code của theme.",
+      "wp.media cũng chỉ được tìm vào đúng lúc bấm nút chứ không phải lúc tải trang, nên một trang quản trị chạm hay tải trễ cũng không thể làm nút chết nữa.",
+      "Nếu thư viện ảnh thực sự không tải được thì nút sẽ báo rõ bằng một dòng thông báo có dịch, thay vì im lặng không phản ứng.",
+      "Mở lại bộ chọn ảnh sẽ tự đánh dấu sẵn ảnh đang lưu ở ô đó, nên đổi logo là bắt đầu từ ảnh hiện tại chứ không phải một thư viện trống.",
+      "Gỡ logo hoặc chọn ảnh mới bây giờ đều phát sự kiện change trên ô ẩn, nên mọi thứ khác đang theo dõi form đều thấy thay đổi.",
+      "Bộ chọn ảnh không còn cần jQuery để gắn nút, nên một plugin làm lỗi jQuery trên trang cài đặt cũng không kéo bộ chọn logo chết theo.",
+      "Phần CSS của bộ chọn ảnh được đưa vào hàng đợi style bình thường thay vì một thẻ style in kèm ở cuối trang.",
+      "Vẫn giữ hàm gx_look_picker_js() như một lớp đệm, để theme con hay đoạn code nào đang gọi nó vẫn chạy bình thường.",
+      "Thêm filter gx_look_picker_tabs, dành cho theme con muốn đặt bộ chọn ảnh ở một tab cài đặt riêng.",
+      "Sửa ba dòng chữ trong giao diện bị lỗi ký tự ở phần tiếng Việt: dòng gợi ý Tên website dưới phần logo, dòng mô tả mục Người dùng gửi APK, và dòng mô tả tab lấy dữ liệu từ Google Play."
+    ]
+  }
+    },
     {
   "version": "1.27.0",
   "date": "2026-09-07",
