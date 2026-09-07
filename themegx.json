@@ -1,10 +1,50 @@
 {
   "name": "GX APK",
-  "version": "1.26.0",
+  "version": "1.27.0",
   "date": "2026-09-08",
   "download": "https://example.com/gx-apk-1.21.0.zip",
   "notice": "",
   "changelog": [
+    {
+  "version": "1.27.0",
+  "date": "2026-09-07",
+  "notes": {
+    "en": [
+      "New Ads tab in the theme settings, with a master switch that turns every ad slot off at once, including the widget-based ones.",
+      "Seven code boxes, one per slot: head, in-feed, mid-article, download button, download popup, page bottom, and the anchor bar.",
+      "Any ad code works, not only AdSense: an AdSense snippet, a plain HTML banner, or a JavaScript tag from another network is delivered exactly as pasted.",
+      "Ad code is parked in a template element and only injected when the ad script runs, so nothing executes while the page is still being parsed.",
+      "Head code is printed in wp_head, for the one-line loader that AdSense and most networks ask for.",
+      "Option to hide ads from staff, meaning anyone who can edit posts, so the team stops clocking its own impressions. Check the live ads in a private window.",
+      "Ad code is stored raw, up to 20,000 characters per box, with no HTML filtering, so only an administrator allowed to post unfiltered HTML can save it.",
+      "Each box warns when it holds code while the master switch is off, so a filled slot cannot look broken for no reason.",
+      "Softer, on-theme ad framing: the creative itself is rounded, including the AdSense ins element and its iframe, labels are quieter, and no creative is ever cropped.",
+      "The whole Ads tab is translated, 31 new strings in English and Vietnamese.",
+      "Two new section kinds on the Home tab, added with the same Add a section button as the rest: Most reviewed apps, and a list of the latest comments. Both use the same how-many-to-show number, capped at 10 so the front page stays fast.",
+      "Latest comments can be ordered newest first or by the highest star rating. There is no most-liked option on purpose: the like and dislike buttons on a review stay in the browser that clicked them and are never sent back, so no site-wide ranking could be built from them, while the star a reviewer left is stored and can be.",
+      "A third position for any section: the footer, under About us. A section placed there spans the whole footer widget row instead of being crushed into one narrow column.",
+      "Fixed a heading bug the new kinds would have exposed: every control in the builder keeps submitting even while hidden, so a row switched from Category to a comment kind still carried the old category id, and an untitled section would have been headed with that category name. Only kinds that really read a category borrow its name now.",
+      "A comment card shows the app display name rather than the raw post title, so the version and the MOD tag are not repeated under every comment, and the count label no longer says apps now that it can count comments too."
+    ],
+    "vi": [
+      "Thêm tab Quảng cáo trong cài đặt theme, có công tắc tổng tắt toàn bộ vị trí quảng cáo một lần, kể cả quảng cáo đặt bằng widget.",
+      "Bảy ô nhập mã, mỗi vị trí một ô: head, giữa danh sách, giữa bài, nút tải, popup tải, cuối trang, và thanh dính dưới.",
+      "Nhận mọi loại mã quảng cáo chứ không chỉ AdSense: mã AdSense, banner HTML thuần, hay thẻ JavaScript của mạng khác đều được xuất đúng như khi dán vào.",
+      "Mã quảng cáo được gửi trong thẻ template và chỉ được chèn khi script quảng cáo chạy, nên không có gì thực thi lúc trang đang tải.",
+      "Mã head được in ở wp_head, dành cho đoạn loader một dòng mà AdSense và phần lớn mạng quảng cáo yêu cầu.",
+      "Có tùy chọn ẩn quảng cáo với người trong nhóm quản trị, tức ai có quyền sửa bài, để team không tự tính lượt xem của mình. Muốn xem quảng cáo thật thì mở cửa sổ ẩn danh.",
+      "Mã quảng cáo được lưu thô, tối đa 20.000 ký tự mỗi ô, không lọc HTML, nên chỉ admin có quyền đăng HTML không lọc mới lưu được.",
+      "Mỗi ô tự cảnh báo khi đã có mã mà công tắc tổng đang tắt, tránh tình trạng tưởng quảng cáo bị lỗi mà không rõ lý do.",
+      "Quảng cáo được bọc lại mềm mại và đúng phong cách theme: bo tròn chính khung quảng cáo, kể cả thẻ ins của AdSense và iframe bên trong, nhãn nhạt hơn, và không cắt xén bất kỳ quảng cáo nào.",
+      "Toàn bộ tab Quảng cáo đã có song ngữ, thêm 31 chuỗi tiếng Anh và tiếng Việt.",
+      "Thêm 2 loại mục mới trong tab Trang Chủ, thêm bằng đúng nút Thêm một mục như các loại cũ: App TOP bình luận, và danh sách Bình luận mới nhất. Cả hai dùng chung ô số lượng hiển thị, tối đa 10 để trang chủ còn nhanh.",
+      "Bình luận mới nhất có thể xếp theo mới nhất trước hoặc theo điểm sao cao nhất. Cố tình không có mục nhiều like nhất: nút thích và không thích ở review chỉ nằm trong trình duyệt của người bấm và không gửi về server, nên không thể xếp hạng cho toàn site; còn điểm sao thì được lưu nên xếp được.",
+      "Thêm vị trí thứ ba cho mọi loại mục: chân trang, dưới khối Về chúng tôi. Mục đặt ở đó trải hết chiều ngang hàng widget chân trang chứ không bị bóp vào một cột hẹp.",
+      "Sửa một lỗi tiêu đề mà hai loại mới sẽ làm lộ ra: mọi ô trong bộ dựng mục vẫn gửi dữ liệu dù đang ẩn, nên một dòng đổi từ Chuyên mục sang loại bình luận vẫn mang theo id chuyên mục cũ, và mục không đặt tên sẽ bị lấy tên chuyên mục đó làm tiêu đề. Giờ chỉ những loại thật sự đọc chuyên mục mới được lấy tên đó.",
+      "Thẻ bình luận hiện tên hiển thị của app chứ không lấy full title, để không lặp lại version và thẻ MOD dưới từng bình luận; nhãn ô số lượng cũng không còn ghi là số app vì giờ nó đếm được cả bình luận."
+    ]
+  }
+    },
     {
   "version": "1.26.0",
   "date": "2026-09-07",
