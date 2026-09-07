@@ -1,10 +1,41 @@
 {
   "name": "GX APK",
-  "version": "1.24.0",
+  "version": "1.25.0",
   "date": "2026-09-08",
   "download": "https://example.com/gx-apk-1.21.0.zip",
   "notice": "",
   "changelog": [
+    {
+  "version": "1.25.0",
+  "date": "2026-09-07",
+  "notes": {
+    "en": [
+      "The featured shelf loops: a swipe past the last app carries on to the first, and a swipe back from the first carries on to the last, in both directions and without losing the momentum of the swipe.",
+      "The loop is re-anchored only once the scrolling has settled, and never while a finger is still on the screen, so the wrap cannot interrupt a gesture.",
+      "A thin progress line along the bottom edge shows how long the current banner has left while the shelf is playing by itself.",
+      "The featured banner has a deeper frame with a hairline ring, a stronger scrim, a frosted FEATURED pill with an icon, a larger title, and a lifted app icon and install button.",
+      "On a wide screen the banner is darkened from the left as well as from the bottom, so the text sits on a scrim of its own rather than straight on the artwork.",
+      "Shelf headings carry a brand-coloured bar and a heavier title, and shelf cards lift when pointed at.",
+      "A shelf icon gets a hairline ring, so a pale icon no longer bleeds into the page, and the rating star is gold rather than grey.",
+      "The grey scrollbar under every shelf is gone; a shelf is moved by swiping, or by the two arrows on a wide screen.",
+      "Turning the phone sideways no longer leaves the featured shelf resting between two banners.",
+      "Shelf headings keep the \"All\" link on a single line, and every card in a shelf now lines up, because an app name always reserves two lines whether it wraps or not."
+    ],
+    "vi": [
+      "Kệ nổi bật vuốt được vòng tròn: vuốt qua ứng dụng cuối sẽ sang ứng dụng đầu, vuốt ngược từ ứng dụng đầu sẽ sang ứng dụng cuối, cả hai chiều và không mất đà vuốt.",
+      "Việc nhảy vòng chỉ diễn ra sau khi đã vuốt xong, và không bao giờ diễn ra lúc ngón tay còn đặt trên màn hình, nên không cắt ngang cú vuốt.",
+      "Một vạch tiến trình mảnh ở mép dưới cho biết banner hiện tại còn bao lâu, khi kệ đang tự chạy.",
+      "Banner nổi bật có khung sâu hơn kèm viền chỉ mảnh, lớp phủ đậm hơn, nhãn FEATURED dạng kính mờ có icon, tiêu đề lớn hơn, icon ứng dụng và nút cài đặt nổi khối.",
+      "Trên màn hình rộng, banner tối dần từ bên trái chứ không chỉ từ dưới lên, nên chữ nằm trên lớp phủ riêng thay vì nằm thẳng trên ảnh.",
+      "Tiêu đề mỗi kệ có thanh màu thương hiệu và chữ đậm hơn, còn thẻ ứng dụng thì nhấc lên khi trỏ vào.",
+      "Icon trong kệ có thêm viền chỉ mảnh, để icon màu nhạt không lẫn vào nền trang, và ngôi sao đánh giá đổi sang màu vàng thay vì màu xám.",
+      "Thanh cuộn xám dưới mỗi kệ đã được bỏ; kệ được kéo bằng cách vuốt, hoặc bằng hai mũi tên trên màn hình rộng.",
+      "Quay ngang điện thoại không còn làm kệ nổi bật dừng giữa hai banner.",
+      "Tiêu đề kệ không còn ép chữ \"Tất cả\" xuống hai dòng, và các thẻ trong cùng một kệ đã thẳng hàng, vì tên ứng dụng luôn chiếm đúng hai dòng dù dài hay ngắn."
+    ]
+  }
+    },
+  
     {
   "version": "1.24.0",
   "date": "2026-09-07",
