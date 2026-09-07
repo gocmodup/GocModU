@@ -1,10 +1,32 @@
 {
   "name": "GX APK",
-  "version": "1.23.0",
+  "version": "1.24.0",
   "date": "2026-09-08",
   "download": "https://example.com/gx-apk-1.21.0.zip",
   "notice": "",
   "changelog": [
+    {
+  "version": "1.24.0",
+  "date": "2026-09-07",
+  "notes": {
+    "en": [
+      "The MOD features on an app page are shown in a panel of their own, one feature per line with a tick, instead of being folded into a single long pill.",
+      "A bullet character typed by hand at the start of a feature line is dropped, so it no longer sits next to the tick the theme draws.",
+      "From four features up the list runs in two columns on a wide screen, and stays in one column on a phone.",
+      "Editor's choice, a custom badge, \"Contains ads\" and \"In-app purchases\" are now separate chips with their own icon, so a compliment no longer looks like a warning.",
+      "The badge area follows the theme tokens, so dark mode and a custom accent colour are picked up automatically.",
+      "The theme version shown under Appearance had been left at 1.21.0 and now matches the real version."
+    ],
+    "vi": [
+      "Tính năng MOD ở trang ứng dụng hiển thị trong một khung riêng, mỗi tính năng một dòng kèm dấu tích, thay vì dồn hết vào một viên thuốc dài.",
+      "Dấu đầu dòng tự gõ tay ở đầu mỗi dòng tính năng sẽ được bỏ đi, để không nằm cạnh dấu tích mà theme đã vẽ.",
+      "Từ bốn tính năng trở lên, danh sách xếp hai cột trên màn hình rộng, và vẫn một cột trên điện thoại.",
+      "\"Lựa chọn của BTV\", nhãn tuỳ chỉnh, \"Có quảng cáo\" và \"Mua hàng trong ứng dụng\" giờ là các chip riêng có icon riêng, nên lời khen không còn trông giống lời cảnh báo.",
+      "Khu vực nhãn dùng đúng bộ màu của theme, nên chế độ tối và màu nhấn tuỳ chỉnh tự động khớp theo.",
+      "Version theme hiển thị ở mục Giao diện trước đây bị bỏ quên ở 1.21.0, giờ khớp với version thật."
+    ]
+  }
+    },
     {
   "version": "1.23.0",
   "date": "2026-09-07",
