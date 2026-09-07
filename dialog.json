@@ -1,0 +1,9 @@
+{
+  "web": "https://gxapk.aevnhit.lol",
+  "logo": "https://.../gxapk-logo.png",
+  "verified": true,
+  "accent": "#01875f",
+  "tick": "#3d6bff",
+  "vi": { "title": "Modded by GxAPK", "message": "…", "close": "Đóng",  "visit": "Ghé thăm web" },
+  "en": { "title": "Modded by GxAPK", "message": "…", "close": "Close", "visit": "Visit Website" }
+}
